@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Hangman Game</h1>
+    <div id="game-container">
+        <label for="difficulty">Select difficulty:</label>
+        <select id="difficulty">
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+        </select>
+        <button id="start-btn">Start Game</button>
+        <div id="hangman-img"></div>
+        <div id="word-label"></div>
+        <div id="guess-container">
+            <label for="guess-input">Enter the word:</label>
+            <input type="text" id="guess-input">
+            <button id="guess-btn">Enter</button>
+        </div>
+        <div id="attempts-label"></div>
+        <div id="message-label"></div>
+        <div id="game-over-text"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
